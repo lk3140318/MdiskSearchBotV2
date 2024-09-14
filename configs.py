@@ -1,6 +1,5 @@
 import os
 # from dotenv import load_dotenv
-
 # load_dotenv()
 
 
@@ -8,8 +7,8 @@ class Config(object):
     API_ID = int(os.getenv("API_ID", "24335028"))
     API_HASH = os.getenv("API_HASH", "b204ec833fb451fb913fc8e683b232d0")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "6776233446:AAE3K0nu-pHHqMVJrjnvurZD7N-N54q2-GQ")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "Auto_Filter_A_2_Z_Bot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "String")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "Auto_Filter_A_2_Z")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "https://mdisksearchbotv2-yfsz.onrender.com")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1002038797877")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "Auto_Filter_A_2_Z_Bot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "5213073489"))
